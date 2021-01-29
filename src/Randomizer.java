@@ -5,7 +5,7 @@ public class Randomizer {
     String word = RandomWord();
     }
 
-    private static String RandomWord() {
+    public static String RandomWord() {
         String[] words = {"Nagel","betyg","debut","fakta"};
         Random R = new Random();
         int randomNumber = R.nextInt(words.length);

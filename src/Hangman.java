@@ -5,6 +5,6 @@ public class Hangman {
         String word = Randomizer.RandomWord();
         String guess = LetterGuess.Guess();
     }
-    
+
 
 }
